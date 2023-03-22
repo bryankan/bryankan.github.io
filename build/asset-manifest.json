@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5923cbca.css",
+    "main.js": "/static/js/main.1f79e34e.js",
+    "static/js/787.f9f7bd2f.chunk.js": "/static/js/787.f9f7bd2f.chunk.js",
+    "static/media/banner.jpg": "/static/media/banner.670cf1e46d70d2d85feb.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/500px.svg": "/static/media/500px.7bd3717403d1997563bc587aa9ac3e74.svg",
+    "static/media/Youtube.svg": "/static/media/Youtube.dcb2e0b3b9980c55e8357345eaf62f8b.svg",
+    "static/media/instagram.svg": "/static/media/instagram.6de2102d2b3b4737a6954ff9edf3092f.svg",
+    "static/media/bili.svg": "/static/media/bili.515ddbacd58d7cba167d58fdf1ca5623.svg",
+    "static/media/logo.svg": "/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "static/media/github.svg": "/static/media/github.8a405a40a855cbaaee2cff2125b93a4a.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.dbba6dd38ea81b03482379842f3916c0.svg",
+    "index.html": "/index.html",
+    "main.5923cbca.css.map": "/static/css/main.5923cbca.css.map",
+    "main.1f79e34e.js.map": "/static/js/main.1f79e34e.js.map",
+    "787.f9f7bd2f.chunk.js.map": "/static/js/787.f9f7bd2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5923cbca.css",
+    "static/js/main.1f79e34e.js"
+  ]
+}
