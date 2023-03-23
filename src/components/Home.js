@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -10,7 +10,7 @@ export const Home = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Data Analyst", "Web Developer", "Photographer", "Marathon Runner" ];
+    const toRotate = [ "Tongyi Kan" ];
     const period = 2000;
 
     useEffect(() => {
@@ -50,15 +50,19 @@ export const Home = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="aligh-items-center">
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={10} md={4} xl={5}>
                     </Col>
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={14} md={8} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Tongyi Kan</span>
-                                    <h1>{`Hi! I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                    {/*<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>*/}
+                                    <h3>{`Hi! I'm `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Tongyi Kan" ]'><span className="wrap">{text}</span></span></h3>
+                                    <p>
+                                    Data Analyst<br />
+                                    Web Developer<br />
+                                    Photographer<br />
+                                    Marathoner<br />
+                                    </p>
                                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                                 </div>}
                         </TrackVisibility>
