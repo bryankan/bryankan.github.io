@@ -6,11 +6,12 @@ import insIcon from "../assets/img/instagram.svg";
 import biliIcon from "../assets/img/bili.svg";
 import youtubeIcon from "../assets/img/Youtube.svg";
 import pxIcon from "../assets/img/500px.svg";
+import React from "react";
 
 
 export const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id="follow">
             <Container>
                 <Row>
                     <div className="footer-followme">
