@@ -40,9 +40,9 @@ export const Home = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="aligh-items-center">
-                    <Col xs={10} md={4} xl={5}>
-                    </Col>
                     <Col xs={14} md={8} xl={7}>
+                    </Col>
+                    <Col xs={10} md={4} xl={5}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
