@@ -25,7 +25,7 @@ export const Footer = () => {
                         <a href="https://space.bilibili.com/24069528" target = "_blank"><img src={biliIcon} alt="biliIcon" /></a>
                         <a href="https://500px.com/p/kanty1" target = "_blank"><img src={pxIcon} alt="pxIcon" /></a>
                     </div>
-                    <p>Copyright 2023. All Rights Reserved</p>
+                    <p>Copyright 2025. All Rights Reserved</p>
                 </Row>
             </Container>
         </footer>
